@@ -10,8 +10,10 @@ import { SortwordService } from "./sortwordService";
 @Route("sort-words")
 export class SortWordsController extends Controller {
   /**
-   * Retrieves the details of an existing user.
-   * Supply the unique user ID from either and receive corresponding user details.
+   *
+   * @summary Sorts the letters of each word in a sentence.
+   * 
+   * @param {string} words to be sort
    */
   @Get()
   public async getSortedWords(
