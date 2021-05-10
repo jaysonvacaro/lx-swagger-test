@@ -1,0 +1,11 @@
+---
+application:
+  name: "lx-swagger-test"
+  project: "lx-swagger-test"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-lx-swagger-test"
+  routes:
+  - application_name: "lx-swagger-test"
+    paths:
+    - "/*"
